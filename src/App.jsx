@@ -1,4 +1,4 @@
-import img from './assets/planet-mercury.svg'
+
 import { BrowserRouter as Router , Routes , Route} from 'react-router'
 import MainPage from './Pages/MainPage/MainPage'
 import Planets from './Pages/Blogs/Blog'
