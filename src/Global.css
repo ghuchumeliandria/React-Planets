@@ -4,3 +4,19 @@
 *{
     transition: 1s;
 }
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #2d68f0;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #419EBB;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #419EBB;
+  }
