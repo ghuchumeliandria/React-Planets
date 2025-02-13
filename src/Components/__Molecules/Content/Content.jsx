@@ -1,5 +1,6 @@
 import Button from "../../__Atoms/Button/Button";
 import { Link } from "react-router";
+import img from '../../../assets/WikiIcon.png'
 function Content(props) {
   return (
     <>
@@ -11,10 +12,10 @@ function Content(props) {
           <div className="flex flex-col gap-[23px] text-left">
             <h1 className="text-[80px] text-white">{props.newData.name}</h1>
             <p className="text-white">{props.planetOverview}</p>
-            <p className="text-white opacity-[0.5]  text-[14px]">
+            <p className="text-white opacity-[0.5]  text-[14px] flex gap-2.5">
               Source :{" "}
-              <Link to={props.newData.overview.source} className="font-bold">
-                Wikipedia
+              <Link to={props.newData.overview.source} className="font-bold flex gap-2.5 items-center">
+                Wikipedia <img src={img} alt="" className="w-3 h-3" />
               </Link>
             </p>
           </div>
