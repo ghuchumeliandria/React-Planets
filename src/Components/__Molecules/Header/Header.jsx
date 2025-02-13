@@ -3,7 +3,6 @@ import data from '../../../data.json'
 import { Link } from "react-router";
 
 function Header(){
-  console.log(data)
     return(
         <>
         <div className="w-full px-[32px] py-[22px] border-b-[1px] border-[#ffffff1c] flex justify-between">

@@ -20,8 +20,9 @@
       "images": {
         "planet": "/assets/planet-mercury.svg",
         "internal": "/assets/planet-mercury-internal.svg",
-        "geology": "/assets/geology-mercury.png"
-      }
+        "geology": "/assets/planet-geology-mercury.png"
+      },
+      "color" : "#419EBB"
     },
     {
       "name": "Venus",
@@ -44,8 +45,9 @@
       "images": {
         "planet": "/assets/planet-venus.svg",
         "internal": "/assets/planet-venus-internal.svg",
-        "geology": "/assets/geology-venus.png"
-      }
+        "geology": "/assets/planet-geology-venus.png"
+      },
+      "color" : "#EDA249"
     },
     {
       "name": "Earth",
@@ -68,8 +70,9 @@
       "images": {
         "planet": "/assets/planet-earth.svg",
         "internal": "/assets/planet-earth-internal.svg",
-        "geology": "/assets/geology-earth.png"
-      }
+        "geology": "/assets/planet-geology-earth.png"
+      },
+      "color" : "#6D2ED5"
     },
     {
       "name": "Mars",
@@ -92,8 +95,9 @@
       "images": {
         "planet": "/assets/planet-mars.svg",
         "internal": "/assets/planet-mars-internal.svg",
-        "geology": "/assets/geology-mars.png"
-      }
+        "geology": "/assets/planet-geology-mars.png"
+      },
+      "color" : "#D14C32"
     },
     {
       "name": "Jupiter",
@@ -116,8 +120,9 @@
       "images": {
         "planet": "/assets/planet-jupiter.svg",
         "internal": "/assets/planet-jupiter-internal.svg",
-        "geology": "/assets/geology-jupiter.png"
-      }
+        "geology": "/assets/planet-geology-jupiter.png"
+      },
+      "color" : "#D83A34"
     },
     {
       "name": "Saturn",
@@ -140,8 +145,9 @@
       "images": {
         "planet": "/assets/planet-saturn.svg",
         "internal": "/assets/planet-saturn-internal.svg",
-        "geology": "/assets/geology-saturn.png"
-      }
+        "geology": "/assets/planet-geology-saturn.png"
+      },
+      "color" : "#CD5120"
     },
     {
       "name": "Uranus",
@@ -164,8 +170,9 @@
       "images": {
         "planet": "/assets/planet-uranus.svg",
         "internal": "/assets/planet-uranus-internal.svg",
-        "geology": "/assets/geology-uranus.png"
-      }
+        "geology": "/assets/planet-geology-uranus.png"
+      },
+      "color" : "#1EC1A2"
     },
     {
       "name": "Neptune",
@@ -188,7 +195,8 @@
       "images": {
         "planet": "/assets/planet-neptune.svg",
         "internal": "/assets/planet-neptune-internal.svg",
-        "geology": "/assets/geology-neptune.png"
-      }
+        "geology": "/assets/planet-geology-neptune.png"
+      },
+      "color" : "#2D68F0"
     }
   ]
