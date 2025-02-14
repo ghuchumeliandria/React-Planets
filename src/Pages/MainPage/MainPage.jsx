@@ -9,7 +9,7 @@ function MainPage() {
         style={{ backgroundImage: `url(${bgImg})` }}>
         <Header />
         <h1 className=" my-10 text-[40px]  text-center text-white" >Solar System</h1>
-        <div className=" w-full flex gap-10 justify-between items-center px-[165px] py-[45px]">
+        <div className=" w-full flex gap-10 justify-between items-center px-[165px] py-[45px] max-lg:flex-col max-lg:px-[40px] max-[550px]:px-[20px] ">
             <div className="w-full flex justify-center ">
           <img src={sun} alt="" className="max-w-[450px] w-full object-cover" />
           </div>
