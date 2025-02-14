@@ -24,7 +24,7 @@ function Planets() {
         className="bg-cover min-h-[100vh] bg-[#070724;] scroll-smooth"
         style={{ backgroundImage: `url(${bgImg})` }}>
         <Header />
-        <div className="flex flex-col px-[165px] py-[65px] mt-[61px] gap-[85px] max-w-[1440px] m-auto">
+        <div className="flex flex-col px-[165px] py-[65px] mt-[61px] gap-[85px] max-w-[1440px] m-auto max-[1342px]:px-[40px] max-[440px]:px-[24px]">
         <Content planet={planetImg} newData={newData} setPlanetImg={setPlanetImg} setPlanetOverview={setPlanetOverview} planetOverview={planetOverview} />
         <PlanetExternal newData={newData} />
         </div>
