@@ -2,6 +2,9 @@ import Button from "../../__Atoms/Button/Button";
 import { Link } from "react-router";
 import img from "../../../assets/WikiIcon.png";
 function Content(props) {
+
+  console.log(props.newData.color)
+
   return (
     <>
       <div className="flex  gap-[85px]  justify-between max-md:flex-col  max-md:gap[95px]  ">

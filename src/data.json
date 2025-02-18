@@ -147,7 +147,7 @@
         "internal": "/assets/planet-saturn-internal.svg",
         "geology": "/assets/planet-geology-saturn.png"
       },
-      "color" : "#CD5120"
+      "color" : "[#CD5120]"
     },
     {
       "name": "Uranus",

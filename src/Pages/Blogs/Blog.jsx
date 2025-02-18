@@ -12,7 +12,6 @@ function Planets() {
   const newData = data.find((params) => params.name === name);
   const [planetImg, setPlanetImg] = useState(`/src${newData.images.planet}`);
   const [planetOverview,setPlanetOverview] = useState(newData.overview.content)
-  console.log(data)
   useEffect(() => {
     setPlanetImg(`/src${newData.images.planet}`);
     setPlanetOverview(newData.overview.content)
